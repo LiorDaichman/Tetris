@@ -19,6 +19,7 @@ canvas {
     width: 100%;
     max-width: 500px;
     margin: 10px 20px;
+    align-items: center; /* Added to vertically align items */
 }
 
 .score, .time, .level {
@@ -30,7 +31,9 @@ canvas {
 }
 
 #pause-button-container {
-    margin-left: auto;
+    display: flex; /* Added to align items in a row */
+    margin: 0 15px; /* Adjusted margin to align with other items */
+    align-items: center; /* Added to vertically align the button */
 }
 
 #game-over-screen {
